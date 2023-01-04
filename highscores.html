@@ -1,1 +1,33 @@
 <!-- Page to display highscores -->
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Quiz - High Scores</title>
+		<link rel="stylesheet" href="./assets/css/style.css" />
+	</head>
+	<body>
+		<header>
+			<h1>High Scores</h1>
+			<a href="index.html"><h3 id="return">⇦ Return</h3></a>
+			<h3 id="timer"></h3>
+		</header>
+		<main>
+			<table>
+				<thead>
+					<tr>
+						<th>Player</th>
+						<th>Score</th>
+					</tr>
+				</thead>
+				<tbody id="leaderboard"></tbody>
+			</table>
+		</main>
+		<footer>
+			<h3>Made by <a href="https://github.com/claricetran">Clarice Tran</a></h3>
+		</footer>
+		<script src="./assets/js/highscores.js"></script>
+	</body>
+</html>

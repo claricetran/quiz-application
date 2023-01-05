@@ -75,7 +75,15 @@ button {
 }
 
 table {
-	width: 33%;
+	width: 33vw;
+}
+
+table * {
+	height: 30px;
+}
+
+th {
+	border-bottom: 3px solid palevioletred;
 }
 
 button:hover {

@@ -29,31 +29,53 @@ header h3 {
 	position: absolute;
 }
 
-#return {
+#return,
+#countdown {
 	top: 2vh;
 }
 
-#highscores {
+#highscores,
+#total-q-section {
 	top: 7vh;
 }
 
+#countdown,
+#total-q-section {
+	right: 10px;
+}
 #return,
 #highscores {
 	left: 10px;
 }
 
-main {
-	display: block;
+main * {
+	color: #928c8c;
+	margin: 2vh 0;
+}
+
+p {
+	width: 40%;
+	margin: 0 auto;
 }
 
 button {
-	background-color: #e4568c;
+	color: #ffffff;
+	background-color: rgb(224, 201, 209);
+	border: 2px solid #e4568c;
 	border-radius: 8px;
-	border-style: none;
+	text-shadow: #e4568c 0px 0px 25px;
 	height: 40px;
 	padding: 10px 16px;
 	position: relative;
 	text-align: center;
+}
+
+#options * {
+	margin: 5px;
+}
+
+table {
+	width: 33%;
 }
 
 button:hover {

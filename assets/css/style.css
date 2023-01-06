@@ -15,7 +15,7 @@ footer {
 	position: relative;
 	width: 100%;
 	height: 10vh;
-	background-color: palevioletred;
+	background-color: #118ab2;
 	display: flex;
 	align-items: center;
 	justify-content: center;
@@ -60,10 +60,10 @@ p {
 
 button {
 	color: #ffffff;
-	background-color: rgb(224, 201, 209);
-	border: 2px solid #e4568c;
+	background-color: rgb(201, 211, 224);
+	border: 2px solid #118ab2;
 	border-radius: 8px;
-	text-shadow: #e4568c 0px 0px 25px;
+	text-shadow: #118ab2 0px 0px 25px;
 	height: 40px;
 	padding: 10px 16px;
 	position: relative;
@@ -71,7 +71,12 @@ button {
 }
 
 #options * {
-	margin: 5px;
+	margin: 5px auto;
+	display: block;
+	width: 20vw;
+}
+
+.options {
 }
 
 table {
@@ -83,13 +88,23 @@ table * {
 }
 
 th {
-	border-bottom: 3px solid palevioletred;
+	border-bottom: 3px solid #118ab2;
 }
 
 button:hover {
-	background-color: palevioletred;
+	background-color: #118ab2;
 }
 
 a:hover {
 	text-shadow: #e9bacc 1px 0px 5px;
+}
+
+.options:focus {
+	background-color: #ef476f;
+	border-color: #ef476f;
+}
+
+#correct:focus {
+	background-color: #06d6a0;
+	border-color: #06d6a0;
 }
